@@ -8,6 +8,15 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Calculator" />
+
+    <EditText
         android:id="@+id/number1"
         android:hint="Number 1"
         android:layout_width="match_parent"
